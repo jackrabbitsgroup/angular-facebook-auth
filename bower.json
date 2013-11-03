@@ -1,0 +1,29 @@
+{
+	"name": "angular-facebook-auth",
+	"version": "1.0.0",
+	"authors": [
+		"Luke Madera <luke.madera@gmail.com>"
+	],
+	"description": "AngularJS facebook authorization and login service",
+	"keywords": [
+		"angular",
+		"AngularJS",
+		"facebook",
+		"angular-facebook-auth",
+		"login",
+		"service"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angular":"~1.2.0"
+	},
+	"devDependencies": {
+	}
+}
