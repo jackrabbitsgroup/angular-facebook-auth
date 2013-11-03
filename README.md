@@ -1,15 +1,14 @@
 # AngularJS facebook authorization and login service
 
-[TODO - brief summary]
+Handles Facebook login and returns the user's Facebook UID and access_token
 
 ## Demo
 http://jackrabbitsgroup.github.io/angular-facebook-auth/
 
 ## Dependencies
 - required:
-	[TODO]
-- optional
-	[TODO]
+	- angular (tested on 1.2.0.rc3)
+	- facebook javascript sdk
 
 See `bower.json` and `index.html` in the `gh-pages` branch for a full list / more details
 
@@ -19,6 +18,7 @@ See `bower.json` and `index.html` in the `gh-pages` branch for a full list / mor
 		1. add `"angular-facebook-auth": "latest"` to your `bower.json` file then run `bower install` OR run `bower install angular-facebook-auth`
 2. include the files in your app
 	1. `facebook-auth.min.js`
+	2. add the facebook javascript sdk (i.e. put `<script src="//connect.facebook.net/en_US/all.js"></script>` in your `index.html` file)
 3. include the module in angular (i.e. in `app.js`) - `jackrabbitsgroup.angular-facebook-auth`
 
 See the `gh-pages` branch, files `bower.json` and `index.html` for a full example.
