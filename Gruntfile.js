@@ -52,7 +52,11 @@ module.exports = function(grunt) {
 						moment:		false,
 						Pikaday: false,
 						module: false,
-						forge: false
+						forge: false,
+						FB: false,
+						CDV: false,
+						PG: false,
+						globalPhoneGap: false
 					}
 				},
 				beforeconcat:   {

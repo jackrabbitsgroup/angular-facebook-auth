@@ -19,7 +19,7 @@ config(['$routeProvider', '$locationProvider', '$compileProvider', function($rou
 	// var staticPath ='/';
 	var staticPath;
 	staticPath ='/angular-services/angular-facebook-auth/';		//local
-	// staticPath ='/angular-facebook-auth/';		//gh-pages
+	staticPath ='/angular-facebook-auth/';		//gh-pages
 	var appPathRoute ='/';
 	var pagesPath =staticPath+'pages/';
 	
